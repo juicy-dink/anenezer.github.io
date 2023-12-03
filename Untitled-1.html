@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smooth Color Transition Button</title>
+  <style>
+    .smooth-color-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 10px 20px;
+      background: linear-gradient(to bottom right, #000, #000);
+      color: #fff;
+      text-decoration: none;
+      transition: background 0.5s ease;
+      border-radius: 8px; /* Adjust the border-radius as needed */
+    }
+
+    .smooth-color-button:hover {
+      background: linear-gradient(to bottom right, #000, #ff0);
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#" class="smooth-color-button">Hover Me</a>
+
+</body>
+</html>

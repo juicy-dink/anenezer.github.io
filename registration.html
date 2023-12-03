@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="css/style/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>MY PROJECT STATS CYBER TALENT</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Name</label>
+          <input type="text" placeholder="Enter your name" required />
+        </div>
+        <div class="input-box">
+            <label>project title</label>
+            <input type="text" placeholder="project name" required />
+          </div>
+          
+          <div class="input-box">
+            <label> About The Project</label>
+            <input type="text" placeholder="descripition" required />
+          </div>
+
+        <div class="input-box">
+          <label>Email Address</label>
+          <input type="text" placeholder="Enter email address" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter phone number" required />
+          </div>
+         
+        </div>
+        <div class="gender-box">
+          <h3>Gender</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">male</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">Female</label>
+            </div>
+            
+          </div> 
+        </div>
+        <div class="input-box address">
+            <label>FILED</label>
+            <div class="select-box">
+                <select>
+                  <option hidden>field</option>
+                  <option>cybersecurity</option>
+                  <option>embedded</option>
+                  <option>development</option>
+                  <option>airospace</option>
+                </select>
+              </div>
+          
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>upload with</option>
+                <option>upload video</option>
+                <option>upload file</option>
+                <option>upload code</option>
+              </select>
+            </div>
+           
+          </div>
+          <div class="column">
+            <input type="text" placeholder="upload video" required />
+            <input type="file" placeholder="upload file" required />
+            <input type="file" placeholder="upload code" required />
+          </div>
+        </div>
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
